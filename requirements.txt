@@ -1,0 +1,30 @@
+# Look for file paths and change them to the location of your files.
+
+# Replace this with your own path (C:\\Users\\Shrivastava\\PycharmProjects\\pythonProject).
+
+# Download the testing data for ISL and save it as mentioned (D://test_data_2.0//Gray_imgs//A).
+
+# Download the training data for ISL and save it as mentioned (D://sign2text_dataset_2.0//Binary_imgs//A).
+
+# Move the AtoZ folder to the location and rename it as mentioned (D:\\sign2text_dataset_3.0\\AtoZ_3.0\\A\\).
+
+
+pip install opencv-python
+
+pip install numpy        
+
+pip install opencv-python-headless
+
+pip install opencv-python-headless opencv-python-contrib
+
+pip install cvzone
+
+pip install keras 
+
+pip install tensorflow
+
+pip install pyttsx3
+
+pip install pyenchant 
+
+pip install mediapipe

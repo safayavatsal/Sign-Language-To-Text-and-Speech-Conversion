@@ -1,3 +1,4 @@
+# Importing Libraries
 import cv2
 from cvzone.HandTrackingModule import HandDetector
 import numpy as np
@@ -19,7 +20,7 @@ flag=False
 suv=0
 
 white=np.ones((400,400),np.uint8)*255
-cv2.imwrite("C:\\Users\\devansh raval\\PycharmProjects\\pythonProject\\white.jpg",white)
+cv2.imwrite("C:\\Users\\Shrivastava\\PycharmProjects\\pythonProject\\white.jpg",white)
 
 
 while True:
@@ -27,7 +28,7 @@ while True:
         _, frame = capture.read()
         frame = cv2.flip(frame, 1)
         hands= hd.findHands(frame, draw=False, flipType=True)
-        white = cv2.imread("C:\\Users\\devansh raval\\PycharmProjects\\pythonProject\\white.jpg")
+        white = cv2.imread("C:\\Users\\Shrivastava\\PycharmProjects\\pythonProject\\white.jpg")
 
         if hands:
             hand = hands[0]
